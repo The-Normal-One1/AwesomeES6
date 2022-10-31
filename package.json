@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/The-Normal-One1/AwesomeES6/issues"
   },
-  "homepage": "https://github.com/The-Normal-One1/AwesomeES6#readme"
+  "homepage": "https://github.com/The-Normal-One1/AwesomeES6#readme",
+  "dependencies": {
+    "full-icu": "^1.5.0",
+    "luxon": "^3.1.0"
+  }
 }
