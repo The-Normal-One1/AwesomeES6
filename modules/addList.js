@@ -1,1 +1,2 @@
-export const addList = document.querySelector('.add-book');
+const addList = document.querySelector('.add-book');
+export default addList;

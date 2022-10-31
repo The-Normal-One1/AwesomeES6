@@ -1,1 +1,2 @@
-export const inputSection = document.querySelector('#enter');
+const inputSection = document.querySelector('#enter');
+export default inputSection;

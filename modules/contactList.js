@@ -1,1 +1,2 @@
-export const contactList = document.querySelector('.contact-list');
+const contactList = document.querySelector('.contact-list');
+export default contactList;

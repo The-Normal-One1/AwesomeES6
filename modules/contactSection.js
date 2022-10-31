@@ -1,1 +1,2 @@
-export const contactSection = document.querySelector('.contact');
+const contactSection = document.querySelector('.contact');
+export default contactSection;

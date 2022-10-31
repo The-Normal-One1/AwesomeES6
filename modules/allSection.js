@@ -1,1 +1,2 @@
-export const allSection = document.querySelector('.all');
+const allSection = document.querySelector('.all');
+export default allSection;

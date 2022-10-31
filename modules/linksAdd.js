@@ -1,1 +1,2 @@
-export const linksAdd = document.querySelector('.add-link');
+const linksAdd = document.querySelector('.add-link');
+export default linksAdd;
