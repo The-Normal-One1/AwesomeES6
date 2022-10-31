@@ -1,0 +1,1 @@
+export const linksAdd = document.querySelector('.add-link');

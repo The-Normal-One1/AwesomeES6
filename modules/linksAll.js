@@ -1,0 +1,1 @@
+export const linksAll = document.querySelector('.list-link');

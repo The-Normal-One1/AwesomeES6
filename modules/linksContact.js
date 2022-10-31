@@ -1,0 +1,1 @@
+export const linksContact = document.querySelector('.contact-link');

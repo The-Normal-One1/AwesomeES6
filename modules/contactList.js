@@ -1,0 +1,1 @@
+export const contactList = document.querySelector('.contact-list');

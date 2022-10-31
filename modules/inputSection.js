@@ -1,0 +1,1 @@
+export const inputSection = document.querySelector('#enter');
