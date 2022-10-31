@@ -1,13 +1,15 @@
 // timer
-const date = document.querySelector('.time');
-const { DateTime } = window.luxon;
-export const times = () => {
-  date.innerHTML = DateTime.now().toLocaleString({
-    weekday: 'short',
-    month: 'short',
-    day: '2-digit',
-    hour: '2-digit',
-    minute: '2-digit',
-    second: '2-digit',
-  });
-};
+export const displayDate = () => {
+    const date = new Date();
+    const options = {
+      weekday: undefined,
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    };
+    const [month, time] = [
+      date.toLocaleDateString(undefined, options),
+      date.toLocaleTimeString().toLocaleLowerCase(),
+    ];
+    document.querySelector('.time').innerHTML = `${month}, ${time}`;
+  };

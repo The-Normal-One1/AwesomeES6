@@ -104,3 +104,7 @@ bookList.addEventListener('click', (e) => {
     linksAdd.style.color = 'black';
     linksAll.style.color = 'black';
   });
+
+  import { displayDate } from './modules/time.js';
+  displayDate();
+  setInterval(displayDate, 1000);
